@@ -4,6 +4,12 @@ Use a feature branch and open a pull request. Merging or pushing to `main` marks
 the commit as a public release: the production server checks `main` every two
 minutes, tests that exact commit, and deploys it if the checks pass.
 
+If you do not have write access, fork this public repository, edit a branch in
+your fork, and open a pull request back to `i-xoxol/little-pause:main`. The owner
+can review and merge it. An invited collaborator with write access can instead
+work on a branch in this repository or push an approved release directly to main.
+No release tag or separate GitHub Release is needed for deployment.
+
 ## Local development
 
 Requires Python 3.12+ and Node.js 22+. No package installation is needed.
